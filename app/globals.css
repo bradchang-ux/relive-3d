@@ -24,3 +24,32 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Marker container must have size for Mapbox to position it correctly */
+.runner-marker-container {
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+
+/* Single Frame Runner Logic */
+.runner-sprite {
+  width: 64px;
+  height: 64px;
+  /* 
+     Use 'contain' to ensure the WHOLE runner is visible.
+     No more sprite cropping issues.
+  */
+}
+
+/* .runner-image rule can be removed or ignored */
+
+@keyframes run-bob {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-8px);
+  }
+}

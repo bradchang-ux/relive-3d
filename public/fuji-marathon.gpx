@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="ReliveClone" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Mt. Fuji Marathon 2025 (Demo)</name>
+    <trkseg>
+      <!-- Start: Oike Park / Kawaguchiko -->
+      <trkpt lat="35.5012" lon="138.7688"><ele>830</ele></trkpt>
+      
+      <!-- Run East towards bridge -->
+      <trkpt lat="35.5080" lon="138.7750"><ele>832</ele></trkpt>
+
+      <!-- Cross Kawaguchiko Ohashi Bridge (North) -->
+      <trkpt lat="35.5170" lon="138.7560"><ele>835</ele></trkpt>
+      
+      <!-- North Shore - Run East -->
+      <trkpt lat="35.5240" lon="138.7650"><ele>831</ele></trkpt>
+      <trkpt lat="35.5220" lon="138.7800"><ele>831</ele></trkpt>
+      
+      <!-- East End Turnaround -->
+      <trkpt lat="35.5150" lon="138.7900"><ele>830</ele></trkpt>
+      
+      <!-- South Shore - Run West -->
+      <trkpt lat="35.5050" lon="138.7750"><ele>832</ele></trkpt>
+      <trkpt lat="35.5012" lon="138.7688"><ele>830</ele></trkpt> <!-- Pass Start again -->
+      
+      <!-- Run West along South Shore -->
+      <trkpt lat="35.5000" lon="138.7500"><ele>833</ele></trkpt>
+      <trkpt lat="35.4980" lon="138.7300"><ele>840</ele></trkpt>
+      
+      <!-- Climb to Saiko (The "Heartbreak Hill") -->
+      <trkpt lat="35.5000" lon="138.7100"><ele>900</ele></trkpt>
+      <trkpt lat="35.4980" lon="138.6900"><ele>920</ele></trkpt>
+      
+      <!-- Saiko Loop (Counter-clockwise) -->
+      <trkpt lat="35.5020" lon="138.6800"><ele>900</ele></trkpt>
+      <trkpt lat="35.5050" lon="138.6500"><ele>900</ele></trkpt> <!-- West End Saiko -->
+      <trkpt lat="35.4950" lon="138.6500"><ele>900</ele></trkpt>
+      <trkpt lat="35.4920" lon="138.6800"><ele>900</ele></trkpt>
+      
+      <!-- Return from Saiko -->
+      <trkpt lat="35.4980" lon="138.6900"><ele>920</ele></trkpt>
+      <trkpt lat="35.5000" lon="138.7100"><ele>900</ele></trkpt>
+      
+      <!-- Return along West Shore / North Shore of Kawaguchiko -->
+      <trkpt lat="35.5040" lon="138.7200"><ele>840</ele></trkpt>
+      <trkpt lat="35.5100" lon="138.7400"><ele>835</ele></trkpt>
+      
+      <!-- Bridge Approach -->
+      <trkpt lat="35.5170" lon="138.7560"><ele>835</ele></trkpt>
+      
+      <!-- Finish Line -->
+      <trkpt lat="35.5012" lon="138.7688"><ele>830</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

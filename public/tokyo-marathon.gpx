@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Gemini" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Tokyo Marathon Full Route (Demo)</name>
+    <trkseg>
+      <!-- START: Tokyo Metropolitan Government Building -->
+      <trkpt lat="35.68963" lon="139.69175"><ele>43</ele></trkpt>
+      <trkpt lat="35.69050" lon="139.70050"><ele>40</ele></trkpt> <!-- Shinjuku -->
+      
+      <!-- Down Yasukuni-dori -->
+      <trkpt lat="35.69250" lon="139.70800"><ele>38</ele></trkpt>
+      <trkpt lat="35.69400" lon="139.71500"><ele>35</ele></trkpt>
+      <trkpt lat="35.69500" lon="139.72500"><ele>33</ele></trkpt> <!-- Ichigaya area -->
+      
+      <!-- Towards Iidabashi -->
+      <trkpt lat="35.69800" lon="139.73500"><ele>30</ele></trkpt>
+      <trkpt lat="35.70200" lon="139.74500"><ele>25</ele></trkpt> <!-- Iidabashi -->
+      
+      <!-- To Kanda / Jimbocho -->
+      <trkpt lat="35.69900" lon="139.75500"><ele>20</ele></trkpt> 
+      <trkpt lat="35.69600" lon="139.76200"><ele>15</ele></trkpt>
+      <trkpt lat="35.69200" lon="139.77100"><ele>10</ele></trkpt> <!-- Kanda -->
+      
+      <!-- Nihombashi -->
+      <trkpt lat="35.68400" lon="139.77450"><ele>8</ele></trkpt> <!-- Nihombashi Bridge -->
+      <trkpt lat="35.68600" lon="139.78000"><ele>7</ele></trkpt>
+      
+      <!-- North to Asakusa -->
+      <trkpt lat="35.69500" lon="139.78400"><ele>7</ele></trkpt>
+      <trkpt lat="35.70500" lon="139.79000"><ele>7</ele></trkpt>
+      <trkpt lat="35.71100" lon="139.79600"><ele>8</ele></trkpt> <!-- Asakusa Kaminarimon -->
+      
+      <!-- Turn back South -->
+      <trkpt lat="35.70800" lon="139.79400"><ele>7</ele></trkpt>
+      <trkpt lat="35.69900" lon="139.79200"><ele>7</ele></trkpt>
+      
+      <!-- Ryogoku Area -->
+      <trkpt lat="35.69600" lon="139.79300"><ele>6</ele></trkpt> <!-- Ryogoku -->
+      <trkpt lat="35.69000" lon="139.79500"><ele>6</ele></trkpt>
+      
+      <!-- To Monzen-nakacho -->
+      <trkpt lat="35.68000" lon="139.79800"><ele>5</ele></trkpt>
+      <trkpt lat="35.67200" lon="139.79600"><ele>5</ele></trkpt> <!-- Monzen-nakacho (Halfway) -->
+      
+      <!-- West back to Ginza -->
+      <trkpt lat="35.67300" lon="139.78500"><ele>6</ele></trkpt>
+      <trkpt lat="35.67200" lon="139.77500"><ele>8</ele></trkpt>
+      <trkpt lat="35.67100" lon="139.76400"><ele>10</ele></trkpt> <!-- Ginza -->
+      
+      <!-- South to Tamachi -->
+      <trkpt lat="35.66500" lon="139.76000"><ele>10</ele></trkpt>
+      <trkpt lat="35.65500" lon="139.75300"><ele>8</ele></trkpt>
+      <trkpt lat="35.64800" lon="139.74700"><ele>5</ele></trkpt> <!-- Tamachi Turnaround -->
+      
+      <!-- North back to Hibiya -->
+      <trkpt lat="35.65510" lon="139.75310"><ele>8</ele></trkpt>
+      <trkpt lat="35.66510" lon="139.76010"><ele>10</ele></trkpt>
+      <trkpt lat="35.67300" lon="139.75800"><ele>10</ele></trkpt> <!-- Hibiya Park -->
+      
+      <!-- Finish Approach -->
+      <trkpt lat="35.67800" lon="139.76300"><ele>15</ele></trkpt> <!-- Marunouchi Naka-dori -->
+      <trkpt lat="35.68120" lon="139.76710"><ele>20</ele></trkpt> <!-- Tokyo Station Finish -->
+    </trkseg>
+  </trk>
+</gpx>
