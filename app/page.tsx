@@ -31,6 +31,8 @@ export default function Home() {
     }
   };
 
+  const basePath = process.env.NODE_ENV === 'production' ? '/relive-3d' : '';
+
   return (
     <main className="min-h-screen bg-black text-white p-8 font-[family-name:var(--font-geist-sans)]">
       <div className="max-w-6xl mx-auto space-y-8">
@@ -73,13 +75,13 @@ export default function Home() {
 
               <div className="flex justify-center space-x-4">
                 <button
-                  onClick={() => loadDemoRoute('/tokyo-marathon.gpx')}
+                  onClick={() => loadDemoRoute(`${basePath}/tokyo-marathon.gpx`)}
                   className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
                 >
                   Load Tokyo Marathon Demo
                 </button>
                 <button
-                  onClick={() => loadDemoRoute('/fuji-marathon.gpx')}
+                  onClick={() => loadDemoRoute(`${basePath}/fuji-marathon.gpx`)}
                   className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
                 >
                   Load Mt. Fuji Marathon Demo
