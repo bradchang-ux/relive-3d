@@ -210,9 +210,19 @@ export default function Map({ trackGeoJSON }: MapProps) {
     }, [trackGeoJSON, isMapLoaded]);
 
     const updateTrack = (mapInstance: mapboxgl.Map, geojson: any) => {
-        const trackFeature = geojson.features.find((f: any) => f.geometry.type === 'LineString');
-        if (!trackFeature) return;
+        console.log("Map: updating track with GeoJSON:", geojson);
+        if (!geojson || !geojson.features) {
+            console.error("Map: Invalid GeoJSON data");
+            return;
+        }
 
+        const trackFeature = geojson.features.find((f: any) => f.geometry.type === 'LineString');
+        if (!trackFeature) {
+            console.error("Map: No LineString feature found in GeoJSON");
+            return;
+        }
+
+        console.log("Map: Found track feature, coordinates:", trackFeature.geometry.coordinates?.length);
         const sourceId = 'route';
         if (mapInstance.getSource(sourceId)) {
             (mapInstance.getSource(sourceId) as mapboxgl.GeoJSONSource).setData(geojson);

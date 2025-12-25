@@ -22,12 +22,20 @@ export default function Home() {
 
   const loadDemoRoute = async (path: string) => {
     try {
+      console.log(`Fetching GPX from: ${path}`);
       const res = await fetch(path);
+      if (!res.ok) {
+        throw new Error(`Failed to fetch GPX: ${res.status} ${res.statusText}`);
+      }
       const text = await res.text();
+      console.log(`GPX delivered, length: ${text.length}`);
+      if (text.trim().startsWith('<!DOCTYPE html>')) {
+        throw new Error('Received HTML instead of GPX. Possibly 404.');
+      }
       handleUpload(text);
-    } catch (e) {
-      console.error(e);
-      alert('Failed to load demo route');
+    } catch (e: any) {
+      console.error("Demo load error:", e);
+      alert(`Failed to load demo route: ${e.message}`);
     }
   };
 
@@ -94,7 +102,7 @@ export default function Home() {
             <div className="flex justify-between items-center px-2">
               <h2 className="text-xl font-semibold">Track View</h2>
               <button
-                onClick={() => setTrackGeoJSON(null)}
+                onClick={() => setStep('upload')}
                 className="text-sm text-gray-400 hover:text-white underline"
               >
                 Upload Another
