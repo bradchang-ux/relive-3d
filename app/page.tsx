@@ -39,7 +39,7 @@ export default function Home() {
     }
   };
 
-  const basePath = process.env.NODE_ENV === 'production' ? '/relive-3d' : '';
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
     <main className="min-h-screen bg-black text-white p-8 font-[family-name:var(--font-geist-sans)]">
