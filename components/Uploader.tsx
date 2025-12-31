@@ -55,7 +55,8 @@ export default function Uploader({ onUpload }: UploaderProps) {
                 Browse Files
                 <input
                     type="file"
-                    accept=".gpx,.xml"
+                    // 修改這裡：加入 MIME types 讓 iOS 知道它是 XML 類型
+                    accept=".gpx,.xml,,application/gpx+xml,application/xml,text/xml"
                     className="hidden"
                     onChange={handleFileChange}
                 />
